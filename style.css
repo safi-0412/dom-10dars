@@ -1,0 +1,22 @@
+.name {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    text-shadow:
+        0 0 10px white,
+        0 0 20px white,
+        0 0 30px #ff99cc,
+        0 0 40px #ff99cc,
+        0 0 50px #ff33cc;
+    transition: 0.3s ease-in-out;
+}
+
+:hover.name{
+    text-shadow:
+        0 0 10px #ff99cc,
+        0 0 20px #ff99cc,
+        0 0 30px #ff33cc,
+        0 0 40px #ff33cc,
+        0 0 50px #ff33cc;
+}
